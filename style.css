@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body
+{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+ .fn{
+    color: rgb(245, 120, 49);
+    
+}
+.container
+{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: rgb(68, 67, 67);
+    margin: 50px;
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0, 0,0,0.1);
+}
+.container .leftSide
+{
+  position: relative;
+  background: rgb(197, 192, 189);
+  padding: 40px;
+}
+.hr{
+    border-color: black;
+}
+.profileText
+{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+}
+.profileText .image{
+    position: relative;
+    border-radius: 50%;
+    
+   
+}
+.summary{
+    font-size: 14px;
+}
+.container .rightSide
+{
+  position: relative;
+  background: rgb(238, 238, 238);
+  padding: 40px;
+}
+.skills1{
+    float: left;
+    font-size: 14px;
+    
+}
+.skills2{
+   font-size: 14px;
+    float: right;
+    
+}
+.ex{margin-top: 0%;
+    margin-right: 50%;
+    
+   
+   
+}
+.table{
+    margin-top: 5%;
+    width: 110%;
+    border-collapse: collapse;
+}
